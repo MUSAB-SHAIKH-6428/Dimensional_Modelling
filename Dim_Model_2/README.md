@@ -12,7 +12,7 @@ Dimensional data warehouse architecture for an enterprise HR operations and work
 
 ## 1. Star Schema Architecture
 
-![Star Schema](STar_Schema.png)
+![Star Schema](Star_Schema.png)
 
 ## Schema Architecture
 
