@@ -90,3 +90,16 @@ create table fact_call (
     constraint chk_satisfaction
         check (customer_satisfaction between 1 and 5)
 );
+
+-- INDEX FKs
+CREATE INDEX idx_fact_call_agent
+ON fact_call(agent_key);
+
+CREATE INDEX idx_fact_call_queue
+ON fact_call(queue_key);
+
+CREATE INDEX idx_fact_call_customer
+ON fact_call(customer_key);
+
+CREATE INDEX idx_fact_call_date
+ON fact_call(date_key);
