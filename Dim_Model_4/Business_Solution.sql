@@ -79,3 +79,6 @@ on p.tier_key = t.tier_key
 where m.is_current = true
 group by m.member_name, m.segment, t.tier_name
 order by lifetime_points_earned desc;
+
+-- NOTE
+-- SCD handling was the problem. Q5 needs a rewrite

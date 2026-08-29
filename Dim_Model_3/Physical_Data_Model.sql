@@ -1,4 +1,4 @@
-create schema if not exists dim_model_2;
+﻿create schema if not exists dim_model_2;
 
 set search_path to dim_model_2;
 
